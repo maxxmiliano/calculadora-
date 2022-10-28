@@ -1,0 +1,85 @@
+.conteudo{
+    background-image: url(../imagens/escri2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    color: hwb(0 95% 5%);
+    text-align: center;
+    /*font-size: 18px;
+    display: flex;
+    justify-content: center;*/
+    align-items: center;
+    min-height: 100vh;
+    
+    
+    /*padding: 30px;
+    opacity: 0.9;*/
+
+}
+
+.calculadora{
+   position: absolute;
+   background-color: black;
+   opacity: 0.7;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border-radius: 15px;
+   border: 2px solid #f3f3f3;
+   padding: 15px;
+
+}
+.botao{
+    background-color: rgb(49, 106, 5);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 3px;
+}
+.botao:hover{
+    background-color: black;
+}
+.botao1:hover{
+    background-color: black;
+}
+.botao2:hover{
+    background-color: black;
+}
+.botao1{
+    background-color: rgb(49, 106, 5);
+    
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #f3f3f3; 
+    margin: 3px;
+    
+}
+.botao2{
+    background-color: rgb(49, 106, 5);
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #f3f3f3;
+    margin: 3px;
+}
+#resultado{
+    background-color: #f3f3f3;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 25px;
+
+}
